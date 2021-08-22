@@ -1,0 +1,15 @@
+export default {
+  white: '#fff',
+  black: '#000',
+  celadon:'#99e2b4',
+  turquoiseGreen:'#88d4ab',
+  etonBlue:'#78c6a3',
+  mint:'#67b99a',
+  zomp:'#56ab91',
+  polishedPine:'#469d89',
+  illuminatingEmerald:'#358f80',
+  celadonGreen:'#248277',
+  skobeloff:'#14746f',
+  skobeloff2:'#036666',
+  slateGray: '#768191',
+};

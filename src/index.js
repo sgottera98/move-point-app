@@ -1,15 +1,14 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
-
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { SafeAreaView } from 'react-native';
+import Input from './components/Input';
+import Splash from './pages/Splash';
 
 const App = () => {
-    return (
-        <SafeAreaView style={{flex: 1}}>
-            <Text>Test</Text>
-            <Icon name="home" size={24} color="#999" />
-        </SafeAreaView>
-    );
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <Input />    
+    </SafeAreaView>
+  );
 };
 
 export default App;
