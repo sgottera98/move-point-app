@@ -1,8 +1,7 @@
 import styles from './styles';
-import { colors } from '../../styles';
-
-import React, { useState } from 'react';
-import { View, Text, TextInput } from 'react-native';
+import {colors} from '../../styles';
+import React, {useState} from 'react';
+import {View, Text, TextInput} from 'react-native';
 
 const Input = ({
   text,
@@ -11,7 +10,7 @@ const Input = ({
   color = colors.slateGray,
   placeholderTextColor = colors.slateGray,
   placeholder,
-  keyboardType = 'default',
+  keyboardType,
   secureTextEntry = false,
 }) => {
   const [isFocused, setIsFocused] = useState(false);

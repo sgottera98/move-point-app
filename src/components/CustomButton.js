@@ -24,20 +24,18 @@ const styles = StyleSheet.create({
     button: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        
+        alignItems: 'center',        
         width: '100%',
-        
-        borderRadius: 10,
+        height: 60,  
+        marginVertical: 10,
+        borderRadius: 30,
     },     
     font: {
         color: colors.white,
         fontSize: 16,
         letterSpacing: 0.16,
         lineHeight: 19,
-        
-        paddingVertical: 24,
-        paddingHorizontal: 10,
+        padding: 10,
     }
 })
 
