@@ -13,6 +13,7 @@ const Input = ({
   keyboardType,
   secureTextEntry = false,
 }) => {
+  
   const [isFocused, setIsFocused] = useState(false);
   const [textIsInserted, setTextIsInserted] = useState(false);
 

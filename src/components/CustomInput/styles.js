@@ -3,14 +3,13 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     wrapInput: {
-      width: '100%',
       justifyContent: 'center',
-      marginVertical: 10,
+      alignItems: 'center',
+      marginVertical: 5,
+      marginHorizontal: 10,
     },
   
     placeholderText: {
-      // zIndex: 1,
-      // position: 'absolute',
       paddingLeft: 20,
     },
 

@@ -3,9 +3,9 @@ import { colors } from '../styles'
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 const Button = ({
-    text,
     backgroundColor = colors.skobeloff,
-    color = colors.white    
+    color = colors.white,
+    children    
 }) => (
         <TouchableOpacity style = {[
             styles.button, 
@@ -14,7 +14,7 @@ const Button = ({
             <Text style = {[
                 styles.font, 
                 {color: color}
-            ]}>{text}</Text>
+            ]}>{children}</Text>
         </TouchableOpacity>
     );      
     
@@ -24,18 +24,16 @@ const styles = StyleSheet.create({
     button: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',        
-        width: '100%',
+        alignItems: 'center',
         height: 60,  
-        marginVertical: 10,
+        marginTop: 25,
+        marginHorizontal: 10,
         borderRadius: 30,
     },     
     font: {
         color: colors.white,
         fontSize: 16,
         letterSpacing: 0.16,
-        lineHeight: 19,
-        padding: 10,
     }
 })
 

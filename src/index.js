@@ -1,13 +1,12 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 
 import Routes from './routes';
+import Splash from './pages/Splash';
 
 const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <Routes/>
-    </SafeAreaView>
+    <Routes/>
   );
 };
 

@@ -1,14 +1,27 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
-
-import Button from '../components/CustomButton';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { View, Text, StyleSheet } from 'react-native';
+import {colors} from '../styles';
 
 const Splash = _ => (
-        <SafeAreaView style={{flex: 1}}>
-            <Icon name="home" size={24} color="#999" />  
-            <Button text="Login"/>          
-        </SafeAreaView>
-    );
+    <View style={styles.wrap}>  
+        <Text style={styles.title}>Move Point</Text>
+    </View>
+);
+
+const styles = StyleSheet.create({
+    wrap: {
+        flex: 1,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: colors.skobeloff2,
+    },
+
+    title: {
+        color: colors.white, 
+        fontSize: 40,    
+        textAlign: 'center'
+    }
+})
 
 export default Splash;
